@@ -43,32 +43,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-        appBar: AppBar(),
-        body: BlocBuilder<SelectedClass, String>(
-          builder: (context, state) {
-            return Center(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Text(state),
-                  ElevatedButton(onPressed: () {}, child: const Text("Change"))
-                ],
-              ),
-            );
-          },
-        ));
-  }
-}
 
 abstract class BlocEvent {}
 

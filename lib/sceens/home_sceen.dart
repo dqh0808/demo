@@ -153,13 +153,11 @@ class _HomeScreenState extends State<HomeScreen> {
                       },
                     ),
                   ),
-                  Text(state),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Container(
                       width: size.width,
                       decoration: BoxDecoration(
-
                           borderRadius: BorderRadius.circular(10)),
                       child: const SizedBox(
                         height: 10,

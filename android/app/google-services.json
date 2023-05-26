@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "460001596315",
+    "firebase_url": "https://test-a9c1a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "test-a9c1a",
+    "storage_bucket": "test-a9c1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460001596315:android:1f29c20013a3025b23473e",
+        "android_client_info": {
+          "package_name": "com.example.untitled"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460001596315-tn5h8e1dph31gka4dg7rn0br83g6hg0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZUOEpHUTWpYZcZLiCBsLtEjwEWDV_4Cg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460001596315-tn5h8e1dph31gka4dg7rn0br83g6hg0d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "460001596315-abudrfqcabbjajc3ccaokrrfdlvtc5oo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.untitled.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
